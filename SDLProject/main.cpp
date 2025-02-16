@@ -92,7 +92,7 @@ GLuint load_texture(const char* filepath)
 void initialise()
 {
   SDL_Init(SDL_INIT_VIDEO);
-  g_display_window = SDL_CreateWindow("User-Input and Collisions Exercise",
+  g_display_window = SDL_CreateWindow("Wei Shi Project1",
                    SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED,
                    WINDOW_WIDTH, WINDOW_HEIGHT,
                    SDL_WINDOW_OPENGL);
